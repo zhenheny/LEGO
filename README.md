@@ -28,7 +28,7 @@ python3 data/prepare_train_data.py --dataset_dir=/path/to/raw/kitti/dataset/ --d
 
 For [Cityscapes](https://www.cityscapes-dataset.com/), download the following packages: 1) `leftImg8bit_sequence_trainvaltest.zip`, 2) `camera_trainvaltest.zip`. Then run the following command
 ```bash
-python data/prepare_train_data.py --dataset_dir=/path/to/cityscapes/dataset/ --dataset_name='cityscapes' --dump_root=/path/to/resulting/formatted/data/ --seq_length=3 --img_width=832 --img_height=342 --num_threads=4
+python3 data/prepare_train_data.py --dataset_dir=/path/to/cityscapes/dataset/ --dataset_name='cityscapes' --dump_root=/path/to/resulting/formatted/data/ --seq_length=3 --img_width=832 --img_height=342 --num_threads=4
 ```
 As the car logo appears in Cityscapes frames, the bottom part is cropped.
 
