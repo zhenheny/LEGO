@@ -3,6 +3,9 @@
 This code reporsitory implements the framework described in the paper [*LEGO: Learning Edge with Geometry all at Once by Watching Videos*](https://arxiv.org/abs/1803.05648) CVPR 2018 (**spotlight**)
 
 Some more information about this paper: [[demo](https://www.youtube.com/watch?v=40-GAgdUwI0)], [[presentation](https://youtu.be/WrEKJeK-Wow?t=4628)], [[poster](misc/cvpr18_poster_lego.pdf)]
+<p align="center">
+<img src='misc/demo.gif' width=800>
+</p>
 
 If you find this work useful, please consider citing this paper
 ```
