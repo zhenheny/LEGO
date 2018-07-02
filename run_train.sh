@@ -1,0 +1,19 @@
+python3 train.py 
+	--dataset_dir=PATH_TO_DATA \
+	--checkpoint_dir=PATH_TO_SAVE_MODEL \
+	--eval_txt PATH_TO_LOG_FILE \
+	--img_width=832 \
+	--img_height=256 \
+	--batch_size=4 \
+	--smooth_weight=2 \
+	--explain_reg_weight=0.0 \
+	--edge_mask_weight=0.15 \
+	--edge_as_explain 0.0 \
+	--ssim_weight=1.0\
+	--normal_smooth_weight=0.01 \
+	--img_grad_weight=0 \
+	--occ_mask=0.0 \
+	--depth_consistency=0.0 \
+	--gpu_id 0 \
+	--gpu_fraction 0.4\
+	--continue_train False
